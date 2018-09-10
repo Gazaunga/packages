@@ -21,7 +21,7 @@
   :defer 4
   :config
   ;; downward-pointing arrow instead of the usual ellipsis
-  (setq org-ellipsis "â¤µ")
+  (setq org-ellipsis "⤵")
   (setq org-src-fontify-natively t)
   :init
   (add-hook 'org-mode-hook #'org-bullets-mode))
